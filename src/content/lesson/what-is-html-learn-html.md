@@ -35,7 +35,7 @@ In that sense, HTML is a language that uses `<tags>` to represent the elements t
 
 
 
-All tags must open and close. To close a tag you must place the same word or letter you used to open it but using `/>`.
+All tags must open and close. To close a tag, you must place the same word or letter you used to open it but using `/>`.
 
 # Attributes
 ***
@@ -134,7 +134,7 @@ Ok, now that we are familiar with the general and necessary structure of the pag
 
 Remember – for the fifteenth time – that a web page is… a text document!  That’s right, if you knew the answer before you read it you are getting it! And, if not, don’t worry.  We’ve never known of anyone learning HTML and CSS rather quickly ;).
 
-Lets see how a website compares to a Word document:
+Let's see how a website compares to a Word document:
 
 <before-after width="500px" before="../../assets/images/f2021d8d-193d-4482-b189-ae0005b1bd88.png" after="../../assets/images/8e339149-97ae-4b15-ba59-a3ddf3777525.png" /></before-after>
 
@@ -143,7 +143,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
 | Head       |H1, H2, H3, etc.   |They define the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
-|Parragraph   |P   |This tag separates the text content with an upper and lower margin.  It helps simulate the behavior of a Word document.`<p>example of a paragraph</p>`   |
+|Paragraph   |P   |This tag separates the text content with an upper and lower margin.  It helps simulate the behavior of a Word document.`<p>example of a paragraph</p>`   |
 |List   |UL, OL   |Lists are of huge importance in a document and they are widely used.  With HTML we have two main tags to list content items:<br><br> <li>OL (ordered list): List with numbers (numbers at the beginning of the item)</li><br><li>UL (unordered list): List without numbers (bullets before items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
 |Image  |img   |It allows us to add images to the document (they could be in PNG, JPEG, GIF and SVG formats, basically) .<br>`<img src="url of the image"/>`
 |Link (Anchor)   |a   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just as with the Menu of this course).  That’s what the anchor tag is made for.<br>`<a href="url to resend">this is a heading</a>`   |
